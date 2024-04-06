@@ -10,4 +10,4 @@ def test_add_to_busket_button_existence(browser):
     try:
         browser.find_element(By.CSS_SELECTOR, '#add_to_basket_form > button')
     except NoSuchElementException:
-        assert False, "Add to busket button not found"
+        assert False, "Add to basket button not found"
